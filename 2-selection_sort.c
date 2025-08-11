@@ -30,7 +30,7 @@ void selection_sort(int *array, size_t size)
 			if (array[j] < array[min_index])
 				min_index = j;
 		}
-		
+
 		/* swap if the smallest isn't already in position i */
 		if (min_index != i)
 		{
